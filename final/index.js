@@ -4,7 +4,7 @@ const url = require('url');
 const slugify = require('slugify');
 const replaceTemplate = require('./modules/replaceTemplate');
 
-/////////////////////////////////
+//////////////////////////
 // FILES
 
 // Blocking, synchronous way
@@ -31,7 +31,7 @@ const replaceTemplate = require('./modules/replaceTemplate');
 // });
 // console.log('Will read file!');
 
-/////////////////////////////////
+////////////////////////////
 // SERVER
 const tempOverview = fs.readFileSync(
   `${__dirname}/templates/template-overview.html`,
